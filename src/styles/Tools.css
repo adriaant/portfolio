@@ -1,0 +1,83 @@
+.tool_list {
+}
+
+.tool_list ul {
+  margin: auto;
+  list-style-type: none;
+  width: 75%;
+}
+
+.tool_item {
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  padding-left: 42px;
+  min-height: 36px;
+  display: inline-block;
+}
+
+.tool_item_ansible {
+  background-image: url('../assets/tool_ansible.svg');
+}
+.tool_item_c {
+  background-image: url('../assets/tool_c.svg');
+}
+.tool_item_cplusplus {
+  background-image: url('../assets/tool_cplusplus.svg');
+}
+.tool_item_csharp {
+  background-image: url('../assets/tool_csharp.svg');
+}
+.tool_item_docker {
+  background-image: url('../assets/tool_docker.svg');
+}
+.tool_item_es {
+  background-image: url('../assets/tool_es.svg');
+}
+.tool_item_git {
+  background-image: url('../assets/tool_git.svg');
+}
+.tool_item_java {
+  background-image: url('../assets/tool_java.svg');
+}
+.tool_item_js {
+  background-image: url('../assets/tool_js.svg');
+}
+.tool_item_lisp {
+  background-image: url('../assets/tool_lisp.svg');
+}
+.tool_item_mongo {
+  background-image: url('../assets/tool_mongo.svg');
+}
+.tool_item_objc {
+  background-image: url('../assets/tool_objc.svg');
+}
+.tool_item_perl {
+  background-image: url('../assets/tool_perl.svg');
+}
+.tool_item_php {
+  background-image: url('../assets/tool_php.svg');
+}
+.tool_item_python {
+  background-image: url('../assets/tool_python.svg');
+}
+.tool_item_r {
+  background-image: url('../assets/tool_r.svg');
+}
+.tool_item_redis {
+  background-image: url('../assets/tool_redis.svg');
+}
+.tool_item_ruby{
+  background-image: url('../assets/tool_ruby.svg');
+}
+.tool_item_scala {
+  background-image: url('../assets/tool_scala.svg');
+}
+.tool_item_sql {
+  background-image: url('../assets/tool_sql.svg');
+}
+.tool_item_swift {
+  background-image: url('../assets/tool_swift.svg');
+}
+.tool_item_vim {
+  background-image: url('../assets/tool_vim.svg');
+}

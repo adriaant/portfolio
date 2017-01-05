@@ -1,0 +1,122 @@
+.tabs {
+  min-width: 100%;
+}
+.tab_header_item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  transition: all .2s ease;
+  margin-left:6px;
+  margin-right: 6px;
+  cursor:pointer;
+  border: 1px solid #BCBABE;
+  border-radius: 12px;
+}
+
+.tab_header_item_ja {
+  background-image: url('../assets/ja.png');
+}
+.tab_header_item_ja:hover {
+  background-image: linear-gradient(
+      rgba(161,214,226, 0.45),
+      rgba(161,214,226, 0.45)
+    ), url('../assets/ja.png');
+}
+
+.tab_header_item_nl {
+  background-image: url('../assets/nl.png');
+}
+.tab_header_item_nl:hover {
+  background-image: linear-gradient(
+      rgba(161,214,226, 0.45),
+      rgba(161,214,226, 0.45)
+    ), url('../assets/nl.png');
+}
+
+.tab_header_item_uk {
+  background-image: url('../assets/uk.png');
+}
+.tab_header_item_uk:hover {
+  background-image: linear-gradient(
+      rgba(161,214,226, 0.45),
+      rgba(161,214,226, 0.45)
+    ), url('../assets/uk.png');
+}
+
+.tab_header_item_us {
+  background-image: url('../assets/us.png');
+  width: 180px;
+}
+.tab_header_item_us:hover {
+  background-image: linear-gradient(
+      rgba(161,214,226, 0.45),
+      rgba(161,214,226, 0.45)
+    ), url('../assets/us.png');
+}
+
+.tab_modal {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F1F1F2;
+  border-radius: 12px;
+  border: 1px solid #BCBABE;
+  padding:42px;
+  overflow: auto;
+}
+
+.tab_modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(161,214,226, 0.45);
+}
+
+.modal_close {
+  cursor: pointer;
+  color: #777;
+  font: 18px/100% arial, sans-serif;
+  position: absolute;
+  right: 5px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  top: 5px;
+}
+.modal_close:after {
+  content: 'X';
+}
+.modal_close:hover {
+  opacity: 0.3;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .tab_header_item {
+    height: 50px;
+    width: 50px;
+  }
+  .tab_header_item_us {
+    width: 60px;
+  }
+  .tab_modal {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 800px) {
+  .tab_header_item {
+    height: 75px;
+    width: 75px;
+  }
+  .tab_header_item_us {
+    width: 90px;
+  }
+}
