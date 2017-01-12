@@ -82,10 +82,6 @@ const tools = [
   {
     name: 'swift',
     content: 'Swift'
-  },
-  {
-    name: 'vim',
-    content: 'Vim'
   }
 ]
 
