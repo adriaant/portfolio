@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.8d93b166.css",
-  "main.css.map": "static/css/main.8d93b166.css.map",
-  "main.js": "static/js/main.a2241f05.js",
-  "main.js.map": "static/js/main.a2241f05.js.map",
+  "main.css": "static/css/main.ee3d4208.css",
+  "main.css.map": "static/css/main.ee3d4208.css.map",
+  "main.js": "static/js/main.73fa5880.js",
+  "main.js.map": "static/js/main.73fa5880.js.map",
   "static/media/hero_max.jpg": "static/media/hero_max.deffc1cd.jpg",
   "static/media/hero_medium.jpg": "static/media/hero_medium.01052a3e.jpg",
   "static/media/hero_small.jpg": "static/media/hero_small.822beb31.jpg",
@@ -26,6 +26,5 @@
   "static/media/tool_ruby.svg": "static/media/tool_ruby.21e58e1c.svg",
   "static/media/tool_scala.svg": "static/media/tool_scala.e05fc42f.svg",
   "static/media/tool_sql.svg": "static/media/tool_sql.f70e9827.svg",
-  "static/media/tool_swift.svg": "static/media/tool_swift.1348fa18.svg",
-  "static/media/tool_vim.svg": "static/media/tool_vim.35341118.svg"
+  "static/media/tool_swift.svg": "static/media/tool_swift.1348fa18.svg"
 }
